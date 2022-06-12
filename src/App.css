@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+nav a{
+  display: inline-block;
+  padding: 10px 15px;
+  color: white;
+  background-color: blue;
+  text-decoration: none;
+}
+
+nav a:hover{
+  background-color: skyblue;
+}
+
+nav a.active{
+  background-color: darkcyan;
+}
