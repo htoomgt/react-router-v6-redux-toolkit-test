@@ -74,3 +74,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Referenced 
 
 - Main Referenced [link](https://www.youtube.com/watch?v=iBUJVy8phqw)
+- API fetch data with useEffect [link](https://www.youtube.com/watch?v=T3Px88x_PsA)
+- React 18 Avoiding Use Effect called twice [link](https://dev.to/ag-grid/react-18-avoiding-use-effect-getting-called-twice-4i9e)
