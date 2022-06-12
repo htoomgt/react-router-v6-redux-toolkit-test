@@ -52,3 +52,13 @@ nav a:hover{
 nav a.active{
   background-color: darkcyan;
 }
+
+h2.main-title{
+  color:steelblue;
+  font-size: 27px;
+}
+
+h2.page-title{
+  color:grey;
+  font-size: 24px;
+}

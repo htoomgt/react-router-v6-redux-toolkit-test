@@ -11,7 +11,7 @@ const About = () => {
 
   return (
     <div>
-        <h2> This is about page!</h2>
+        <h2 className={`page-title`}> This is about page!</h2>
     </div>
   )
 }

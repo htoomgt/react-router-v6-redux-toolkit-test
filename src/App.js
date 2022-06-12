@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <div className="App"> Hello World!</div>
+      <h2 className="main-title">React Router V6 and React Redux with React Toolkit Tutorial</h2>
       <Router>
         <nav>
           <Link to="/" 

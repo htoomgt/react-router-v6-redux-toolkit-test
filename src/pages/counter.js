@@ -9,8 +9,7 @@ const Counter = () => {
   const dispatch = useDispatch()
 
 
-  let increment = () => {
-    
+  let increment = () => {    
     dispatch(counterActions.increment());
     
   }
@@ -26,7 +25,7 @@ const Counter = () => {
 
   return (
     <>
-        <h2> Counter JS</h2>   
+        <h2 className={`page-title`}> Counter JS</h2>   
 
         <h3> Count : {counterReduxState.count}</h3> 
         <div>

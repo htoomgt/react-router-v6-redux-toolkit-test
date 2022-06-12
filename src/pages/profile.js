@@ -17,7 +17,7 @@ const Profile = () => {
         navigate("/about");
       }
     
-    const headerText = <h2> This is the profile page {username} </h2>;
+    const headerText = <h2 className={`page-title`}> This is the profile page {username} </h2>;
 
   return (
     <div>
