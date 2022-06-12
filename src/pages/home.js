@@ -7,7 +7,7 @@ const Home = () => {
 
   useEffect(()=> {
     dispatch(navActiveActions.setActivePage('home'));
-  })
+  });
 
   
 

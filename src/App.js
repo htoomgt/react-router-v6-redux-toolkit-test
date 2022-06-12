@@ -5,6 +5,7 @@ import About from "./pages/about";
 import Profile from './pages/profile';
 import ErrorPage from "./pages/error";
 import Counter from "./pages/counter";
+import FetchApiData from "./pages/fetchApiData";
 import {useDispatch, useSelector} from 'react-redux';
 import {navActiveActions} from './store/index';
 import { useCallback, useEffect, useState } from "react";
@@ -35,16 +36,20 @@ function App() {
           
           className={`${navActionReduxState.activePage == 'profile' ? 'active': ''}`} 
           to="/profile/htoo_mg_thait">Profile</Link>&nbsp;
-          <Link 
-          
+          <Link           
           className={`${navActionReduxState.activePage == 'counter' ? 'active': ''}`} 
           to="/counter">Counter</Link>&nbsp;
+
+          <Link           
+            className={`${navActionReduxState.activePage == 'api-fetch-data' ? 'active': ''}`} 
+          to="/api-fetch-data">API Fetch Data</Link>&nbsp;
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/profile/:username" element={<Profile />} />
           <Route path="/counter" element={<Counter />} />
+          <Route path="/api-fetch-data" element={<FetchApiData />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
         <div> Foooter </div>
