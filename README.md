@@ -10,3 +10,4 @@ This project is a testing project for react router v6 (version 6.0) with page na
 - Main Referenced [link](https://www.youtube.com/watch?v=iBUJVy8phqw)
 - API fetch data with useEffect [link](https://www.youtube.com/watch?v=T3Px88x_PsA)
 - React 18 Avoiding Use Effect called twice [link](https://dev.to/ag-grid/react-18-avoiding-use-effect-getting-called-twice-4i9e)
+- Making a POST request to API [link](https://www.youtube.com/watch?v=EcRFYF4B3IQ)
